@@ -10,30 +10,36 @@
 </head>
 
 <body>
+
 <div class="container">
-    <div class="col-md-5" style="margin-top: 13%; margin-left: 25%;">
+    <h4>Buttons</h4>
+    <div class="row">
+        <div class="col-md-12">
+            <p>
+                <!-- Standard gray button with gradient -->
+                <button type="button" class="btn btn-lg btn-default">Default</button>
 
-    <div class="panel panel-primary">
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-lg btn-primary">Primary</button>
+                <button type="button" class="btn btn-lg btn-primary">Primary</button>
 
-        <div class="panel-heading">
-            welcome ksea
-        </div>
-        <div class="panel-body text-center">
-            <form class="form-horizontal">
-                <div class="form-group  text-center row">
-                    <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
-                </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" placeholder="请输入密码"/>
-                </div>
-                <div class="form-group col-md-12">
-                    <input type="button" class="btn btn-primary  btn-lg btn-block" value="登 录">
-                </div>
-            </form>
+                <!-- Indicates a successful or positive action -->
+                <button type="button" class="btn btn-success">Success</button>
+
+                <!-- Contextual button for informational alert messages -->
+                <button type="button" class="btn btn-info">Info</button>
+
+                <!-- Indicates caution should be taken with this action -->
+                <button type="button" class="btn btn-warning">Warning</button>
+
+                <!-- Indicates a dangerous or potentially negative action -->
+                <button type="button" class="btn btn-danger">Danger</button>
+
+                <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+                <button type="button" class="btn btn-link">Link</button>
+            </p>
         </div>
     </div>
-    </div>
-</div>
 <%@include file="../commons/commons-js.jsp" %>
 </body>
 </html>
